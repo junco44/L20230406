@@ -45,7 +45,24 @@ void Monster::Attack()
 
 }
 
+class Map
+{
+private:
+	const int SizeX = 10;
+	const int SizeY = 10;
 
+public:
+	Map();
+	void Display();
+};
+Map::Map()
+{
+
+}
+void Map::Display()
+{
+
+}
 
 int main()
 {
