@@ -24,6 +24,26 @@ void Player::Attack()
 	
 }
 
+class Monster
+{
+private:
+	string MonsterName;
+	int HP;
+
+public:
+	Monster();
+	Monster(string MonsterName, int HP);
+	void Move();
+	void Attack();
+};
+void Monster::Move()
+{
+
+}
+void Monster::Attack()
+{
+
+}
 
 
 
